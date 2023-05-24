@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite" thread-count="2" parallel="tests">
+
+<test  name="Test">
+	<parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="task.GmailLogin"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<!--
+ <test  name="Test2">
+	<parameter name="browserName" value="Edge"></parameter>
+    <classes>
+      <class name="task.GmailLogin"/>
+    </classes>
+  </test> 
+
+
+<test  name="Test2">
+	<parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="task.GmailLogin"/>
+    </classes>
+  </test> 
+-->
+
+</suite> <!-- Suite -->
